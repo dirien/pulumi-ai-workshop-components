@@ -52,7 +52,7 @@ export class ArgoCDComponent extends pulumi.ComponentResource {
             {
                 chart: "argo-cd",
                 repositoryOpts: {
-                    repo: "oci://ghcr.io/argoproj/argo-helm",
+                    repo: "https://argoproj.github.io/argo-helm",
                 },
                 namespace: namespace.metadata.name,
                 // Auto-create namespace if it doesn't exist
