@@ -1,0 +1,3 @@
+name: argocd-component
+runtime: nodejs
+description: Pulumi ComponentResource for deploying ArgoCD with app-of-apps pattern to Kubernetes clusters

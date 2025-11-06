@@ -1,0 +1,30 @@
+{
+  "name": "@ediri/argocd-component",
+  "version": "1.0.0",
+  "description": "Pulumi ComponentResource for deploying ArgoCD with app-of-apps pattern",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "pulumi",
+    "component",
+    "argocd",
+    "kubernetes",
+    "gitops"
+  ],
+  "author": "ediri",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/kubernetes": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  }
+}
